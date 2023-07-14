@@ -5,17 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/app.js"
-  },
-   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "nodemon src/app.js"
   },
   "author": "monika",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "nodemon": "^3.0.1"
