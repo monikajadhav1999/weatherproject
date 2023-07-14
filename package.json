@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js"
   },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+},
   "author": "monika",
   "license": "ISC",
   "dependencies": {
